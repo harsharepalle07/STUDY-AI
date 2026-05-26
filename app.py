@@ -1,8 +1,9 @@
 import streamlit as st
 import requests
+import os
 
-# 👉 Put your OpenRouter API key here
-API_KEY = "ENTER YOUR API KEY"
+API_KEY = os.getenv("OPENROUTER_API_KEY")
+
 
 st.set_page_config(page_title="StudyMate AI", page_icon="🤖")
 
