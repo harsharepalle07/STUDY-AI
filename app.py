@@ -59,3 +59,10 @@ if user_input:
 
         with st.chat_message("assistant"):
             st.write(reply)
+
+st.markdown(
+    "<div style='text-align: center; color: gray; font-size: 14px;'>"
+    "👨‍💻 Created by <b>Harsha Repalle</b>"
+    "</div>",
+    unsafe_allow_html=True
+)
