@@ -7,7 +7,7 @@ API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 st.set_page_config(page_title="StudyMate AI", page_icon="🤖")
 
-st.title("🤖 StudyMate AI Chatbot")
+st.title("🤖 StudyMate AI")
 
 # ---------------- MEMORY ----------------
 if "messages" not in st.session_state:
