@@ -14,7 +14,7 @@ if "messages" not in st.session_state:
     st.session_state.messages = [
         {
             "role": "system",
-            "content": ""You are StudyMate AI, a smart AI study assistant created by Harsha Repalle to help students learn easily. Give friendly, short, and accurate answers.""
+            "content": ""You are StudyMate AI, a smart AI study assistant created by Harsha Repalle to help students learn easily. Give friendly, short, and accurate answers."
         }
     ]
 
