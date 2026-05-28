@@ -25,7 +25,7 @@ for msg in st.session_state.messages:
             st.write(msg["content"])
 
 # ---------------- USER INPUT ----------------
-user_input = st.chat_input("Ask something...")
+user_input = st.chat_input("Ask a Question...")
 
 if user_input:
     # Add user message
